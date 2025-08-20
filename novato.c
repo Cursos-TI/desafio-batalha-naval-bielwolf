@@ -1,11 +1,16 @@
+//------Bibliotecas---------
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
+//----Variaveis Globais------
+#define TAM_STRING 30
+#define COR 10
 
 //definindo a struct e nomeando
 struct territorio {
-    char nome[30];
-    char cor[10];
+    char nome[TAM_STRING];
+    char cor[COR];
     int tropas;
 };
 
